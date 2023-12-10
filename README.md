@@ -7,7 +7,7 @@
 оценивает и выводит наиболее подходящих подрядчиков, составляет комбинации подрядчиков для достижения необходимого количества буровых установок в год.
 
 ## Видео работы
-[![video](https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Auth.png)](https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Video.mov)
+[![video](https://img.youtube.com/vi/d7ZQRZV2yIQ/1.jpg)](https://youtu.be/d7ZQRZV2yIQ)
 
 ## Скриншоты web-приложения
 ### Авторизация
