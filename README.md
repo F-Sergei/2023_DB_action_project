@@ -11,9 +11,9 @@
 
 ## Скриншоты web-приложения
 ### Авторизация
-<div style="text-align:center">
-  <img style="center" alt="Авторизация" width="90%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Auth.png" />
-</div>
+<p align="center" width="100%">
+    <img style="center" alt="Авторизация" width="90%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Auth.png" />
+</p>
 
 ### Главная страница
 <img style="center" alt="Главная страница" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Main_page.png" />
