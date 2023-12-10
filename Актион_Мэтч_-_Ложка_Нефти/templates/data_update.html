@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Обновление данных о компании
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Обновление данных</h1>
+    <form method="post">
+        <p>Введите название компании</p>
+        <div class="col-sm-7 mb-3">
+        <input type="text" name="name" id="name" class="form-control" value="{{ data.name }}" placeholder="КА1" required>
+        </div>
+
+        <p>Введите количество свободных БУ</p>
+        <div class="col-sm-2 mb-3">
+        <input type="text" name="free_d_rig" id="free_d_rig" class="form-control" value="{{ data.free_d_rig }}" placeholder="4" required pattern="[0-9]{1,8}">
+        </div>
+
+        <p>Введите домашний регион компании</p>
+        <div class="col-sm-7 mb-3">
+        <input type="text" name="region" id="region" class="form-control" value="{{ data.region }}" placeholder="ХМАО" required>
+        </div>
+
+        <p>Введите выполняемый тип работ</p>
+        <div class="col-sm-7 mb-3">
+        <input type="text" name="work_type" id="work_type" class="form-control" value="{{ data.work_type }}" placeholder="под ключ / раздельный сервис" required>
+        </div>
+
+        <p>Введите ИНН компании</p>
+        <div class="col-sm-7 mb-3">
+        <input type="text" name="inn" id="inn" class="form-control" value="{{ data.inn }}" placeholder="3525379466" required pattern="[0-9]{1,15}">
+        </div>
+
+        <input type="submit" class="btn btn-success" value="Обновить">
+    </form>
+    <br>
+</div>
+{% endblock %}

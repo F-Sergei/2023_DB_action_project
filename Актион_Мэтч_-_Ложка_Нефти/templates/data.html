@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Все компании
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="media d-flex mb-3">
+        <div class="media-body2 text-left align-self-center">
+            <h1>Все компании</h1>
+        </div>
+        <div class="align-self-center">
+            <a class="btn btn-dark icon-user success font-large-2 float-right" href="/add-company">Добавить</a>
+        </div>
+    </div>
+
+    <div class="row">
+    {% if data|length > 0 %}
+        {% for el in data %}
+            <div class="col-6 mb-3">
+              <div class="card ">
+                <div class="card-body">
+                    <div class="container border-bottom">
+                        <h4><b>{{ el.name }}</b></h4>
+                    </div>
+                    <p><b>Регион: </b>{{ el.region }}</p>
+                    <p><b>Дата:</b> {{ el.date.date() }}</p>
+                    <div class="btn-group">
+                        <a href="/data/{{ el.id }}" class="btn btn-sm btn-outline-dark">Подробнее</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>Данные отсутствуют</p>
+    {% endif %}
+    </div>
+
+</div>
+
+</div>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+        integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+        crossorigin="anonymous"></script>
+{% endblock %}
