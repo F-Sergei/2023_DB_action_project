@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/auth.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Регистрация</title>
+
+</head>
+
+
+
+<!--<form method="POST">
+    <table>
+        <tr>
+            <td>Login</td>
+            <td><input type="text" name="login"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+        <tr>
+            <td>Password retype</td>
+            <td><input type="password" name="password2"></td>
+        </tr>
+        <tr>
+            <td><a href="{{ url_for('login_page') }}">Login</a></td>
+            <td><input type="submit" value="Register"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>-->
+
+
+<body>
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
+            <div class="mb-md-5 mt-md-4 pb-2">
+              <form method="POST">
+                  <h2 class="fw-bold mb-3 text-uppercase">Регистрация</h2>
+                  <p class="text-white-50 mb-6">
+                      {% with messages = get_flashed_messages() %}
+                          {% if messages %}
+                            <div class=flashes>
+                            {% for message in messages %}
+                              <p>{{ message }}</p>
+                            {% endfor %}
+                            </div>
+                          {% endif %}
+                      {% endwith %}
+                  </p>
+
+                  <div class="form-outline form-white mb-4">
+                    <input type="text" id="typeEmailX" class="form-control form-control-lg" name="login"/>
+                    <label class="form-label" for="typeEmailX">Логин</label>
+                  </div>
+
+                  <div class="form-outline form-white mb-4">
+                    <input type="password" id="typePasswordX" class="form-control form-control-lg" name="password"/>
+                    <label class="form-label" for="typePasswordX">Пароль</label>
+                  </div>
+
+                  <div class="form-outline form-white mb-4">
+                    <input type="password" id="typePasswordX" class="form-control form-control-lg" name="password2"/>
+                    <label class="form-label" for="typePasswordX" >Повторите пароль</label>
+                  </div>
+
+                  <button class="btn btn-outline-light btn-lg px-5" type="submit">Зарегистрироваться</button>
+
+            </div>
+            <div class="form-check d-flex justify-content-center mb-5">
+                <div class="form-check">
+                    <input class="form-check-input me-2" type="checkbox" value="" name="form2Example3g" id="form2Example3g" checked/>
+                    <label class="form-check-label" for="form2Example3g">
+                        Согласен на обработку данных
+                    </label>
+                 </div>
+            </div>
+          </form>
+            <div>
+              <p class="mb-0">Уже есть аккаунт? <a href="{{ url_for('login_page') }}" class="text-white-50 fw-bold">Войти</a>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
