@@ -11,13 +11,17 @@
 
 ## Скриншоты web-приложения
 ### Авторизация
-<img style="text-align:center" alt="Авторизация" width="90%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Auth.png" />
+<div style="text-align:center">
+  <img style="center" alt="Авторизация" width="90%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Auth.png" />
+</div>
 
 ### Главная страница
-<img style="text-align:center" alt="Главная страница" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Main_page.png" />
+<img style="center" alt="Главная страница" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Main_page.png" />
 
 ### Информация о компании
-<img style="text-align:center" alt="Информация о компании" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Full_info_about_company.png" />
+<div style="text-align:center">
+  <img alt="Информация о компании" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Full_info_about_company.png" />
+</div>
 
 ### Форма запроса
 <img style="text-align:center" alt="Форма запроса" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Request_form.png" />
