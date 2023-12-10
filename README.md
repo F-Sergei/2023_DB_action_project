@@ -12,19 +12,25 @@
 ## Скриншоты web-приложения
 ### Авторизация
 <p align="center" width="100%">
-    <img style="center" alt="Авторизация" width="90%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Auth.png" />
+    <img style="center" alt="Авторизация" width="70%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Auth.png" />
 </p>
 
 ### Главная страница
-<img style="center" alt="Главная страница" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Main_page.png" />
+<p align="center" width="100%">
+    <img style="center" alt="Главная страница" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Main_page.png" />
+</p>
 
 ### Информация о компании
-<div style="text-align:center">
+<p align="center" width="100%">
   <img alt="Информация о компании" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Full_info_about_company.png" />
-</div>
+</p>
 
 ### Форма запроса
-<img style="text-align:center" alt="Форма запроса" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Request_form.png" />
+<p align="center" width="100%">
+    <img style="text-align:center" alt="Форма запроса" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Request_form.png" />
+</p>
 
 ### Ответ на запрос
-<img style="text-align:center" alt="Ответ на запрос" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Results.png" />
+<p align="center" width="100%">
+    <img style="text-align:center" alt="Ответ на запрос" width="20%" src="https://github.com/F-Sergei/2023_action_team_project/blob/main/images_and_videos/Results.png" />
+</p>
