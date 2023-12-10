@@ -7,9 +7,8 @@
 оценивает и выводит наиболее подходящих подрядчиков, составляет комбинации подрядчиков для достижения необходимого количества буровых установок в год.
 
 ## Видео - работа приложения
-<p align="center" width="100%">
-    [![video](https://img.youtube.com/vi/d7ZQRZV2yIQ/1.jpg)](https://youtu.be/d7ZQRZV2yIQ)
-</p>
+[![video](https://img.youtube.com/vi/d7ZQRZV2yIQ/1.jpg)](https://youtu.be/d7ZQRZV2yIQ)
+
 
 ## Скриншоты web-приложения
 ### Авторизация
